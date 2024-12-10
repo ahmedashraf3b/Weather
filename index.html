@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.7.1-web/fontawesome-free-6.7.1-web/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">   
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  w-100 p-md-5 p-sm-4">
+        <div class="container-fluid m-auto " style="margin-left: 140px !important; margin-right: 140px !important;">
+          <div class="navbar-brand d-flex justify-content-center">
+            <img src="imges1.png"class="me-2 mb-3 p-0" width="60px" alt="">
+            <a class="nav-link fs-5 text-light  ps-1" href="#">Weather <br>
+          <p style="font-size: 0.5em; color: #bbbbbb;">tagline goes here</p></a>
+          </div>
+          <button
+            class="navbar-toggler bg-opacity-100  text-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon text-bg-light"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-lg-flex justify-content-lg-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav fs-5">
+              <li class="nav-item  p-3 ">
+                <a
+                  class="nav-link style text-light active"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item  p-3 ">
+                <a class="nav-link  style text-light" href="#About">About </a>
+              </li>
+              <li class="nav-item  p-3 ">
+                <a class="nav-link  style text-light" href="#services">services</a>
+              </li>
+              <li class="nav-item  p-3 ">
+                <a class="nav-link  style text-light" href="#worke">worke</a>
+              </li>
+              <li class="nav-item   p-3 ">
+                <a class="nav-link  style text-light" href="#blog">blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="background">
+        <div class="container position-relative" style="padding-bottom: 230px;">
+          <input type="text" class="input m-5 border-0" placeholder="Find youer Location" name="search" id="search">
+          <button class="btn button btn-primary">Find</button>
+          <div class="container p-2">
+            <div class="row w-100 ps-lg-5 pe-lg-2 position-absolute gap-0">
+              <div class="col-lg-4">
+                <div class="item " style="width: 110%;">
+                  <div class="w-100 d-flex justify-content-between rounded-1 rounded-bottom-0" style="background-color: #394053; padding: 10px;">
+                    <div class=" a">
+                      <p class="m-0 dayy">Sunday</p>
+                    </div>
+                    <div class=" b">
+                      <p class="m-0 monthh me-2">8march</p>
+                    </div>
+                  </div>
+                  <div class="rounded-1 pb-2 rounded-top-0" style="background-color: #25293f;">
+                      <div class="fs-4 text-white-50 NAME p-3">Cairo</div>
+                      <div class="text-white ps-3 m-0 fw-bold" style="font-size: 6em;">
+                          <div class="num temp">20.2<sup>o</sup>C</div>
+                          <div class="w-25 h-0 img-1">
+                              <img class="m-0" src="https://cdn.weatherapi.com/weather/64x64/night/113.png" alt="" width="90">
+                          </div>	
+                      </div>
+                      <div class="text-primary hala p-2">Clear</div>
+                      <span class="ps-3"><img src="imges4.png"class="p-1" width="28" alt="">20%</span>
+                                  <span><img src="imges5.png"class="p-1" width="28" alt="">18km/h</span>
+                                  <span><img src="imges6.png"class="p-1" width="28" alt="">East</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="item " style="width: 110%;">
+                  <div class="w-100 text-center rounded-1 rounded-bottom-0" style="background-color: #2c3449; padding: 10px;">
+                    <div class=" b">
+                      <p class="m-0 month-2 me-2">8march</p>
+                    </div>
+                  </div>
+                  <div class="rounded-1 pb-2 rounded-top-0 d-flex align-items-start justify-content-center pt-5" style="background-color: #202438;height: 432px;">
+                    <div class="forecast-content">
+                      <div class="forecast-icon">
+                          <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" class="mt-4 ms-4 me-4 mb-0" width="48">
+                      </div>
+                      <div class="fw-bold text-white weather-2 fs-4 mt-2 ms-2 me-2">22.9<sup>o</sup>C</div>
+                      <small class="ms-4 Small">13.9<sup>o</sup></small>
+                      <div class="ms-3 text-primary div">Sunny</div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="item " style="width: 110%;">
+                  <div class="w-100 text-center rounded-1 rounded-bottom-0" style="background-color: #394053; padding: 10px;">
+                    <div class=" a">
+                      <p class="m-0 dayyy">Sunday</p>
+                    </div>
+                  </div>
+                  <div class="rounded-1 pb-2 rounded-top-0 d-flex align-items-start justify-content-center pt-5" style="background-color: #25293f;height: 432px;">
+                    <div class="forecast-content">
+                      <div class="forecast-icon-1">
+                          <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" class="mt-4 ms-4 me-4 mb-0" width="48">
+                      </div>
+                      <div class="fw-bold text-white weather-3 fs-4 mt-2 ms-2 me-2">22.9<sup>o</sup>C</div>
+                      <small class="ms-4 lll">13.9<sup>o</sup></small>
+                      <div class="ms-3 text-primary tectt">Sunny</div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-100"style="height: 42vh;"></div>
+      <div class="w-100 aa"style="height: 37vh;">
+        <div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<form action="#" class="position-relative">
+								<input type="text" class="input m-4 mb-0" placeholder="Enter your email to subscribe...">
+               <button class="btn button btn-primary"style="top: 27.9px;">Find</button>
+							</form>
+						</div>
+						<div class="col-md-3 col-md-offset-1">
+							<div class="p-5    ">
+								<i class="fa-brands fs-2 p-2 text-primary fa-facebook"></i>
+								<i class="fa-brands fs-2 p-2 text-primary fa-twitter"></i>
+								<i class="fa-brands fs-2 p-2 text-primary fa-google-plus"></i>
+								<i class="fa-brands fs-2 p-2 text-primary fa-pinterest"></i>
+							</div>
+						</div>
+					</div>
+					<p class="p-3 ps-5 pt-0">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+				</div>
+      </div>
+    <script src="Js/index.js"></script>
+</body>
+</html>
