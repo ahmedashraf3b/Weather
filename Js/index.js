@@ -38,6 +38,6 @@ async function display(e){
        }
        }    
        var month = e[0].forecast.forecastday[0].date.slice(5)
-       var x = Number( month[0]+month[1]) 
+       var x = Number( month[0]+month[1])
        document.querySelector(".monthh").innerHTML = e[0].forecast.forecastday[0].date.slice(8) + monthNames[x-1]
 }
